@@ -1,7 +1,9 @@
 <template>
-  <h1>Hello World</h1>
+  <x-hero></x-hero>
 
   <div class="Container">
+    <h2 class="Headline-2 TextAlign-center">Explore Restaurant</h2>
+
     <div class="Grids">
       <x-card
         v-for="(restaurant, index) of RESTAURANTS"
@@ -18,7 +20,7 @@
 
         <template #text>
           <h3 class="Headline-3">{{ restaurant.name }}</h3>
-          <p class="BodyText-2">Rating:  {{ restaurant.rating }}</p>
+          <p class="BodyText-2">Rating: {{ restaurant.rating }}</p>
           <p class="BodyText-1">$ • {{ restaurant.city }}</p>
           <p class="BodyText-2 Truncate">{{ restaurant.description }}</p>
         </template>
