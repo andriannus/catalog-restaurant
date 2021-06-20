@@ -1,5 +1,5 @@
 <template>
-  <div class="AppBar">
+  <nav class="AppBar">
     <button class="AppBar-button">
       <span class="AppBar-icon">=</span>
     </button>
@@ -13,7 +13,7 @@
       <li class="AppBar-action">Favorite</li>
       <li class="AppBar-action">About</li>
     </ul>
-  </div>
+  </nav>
 </template>
 
 <script lang="ts" src="./app-bar.component.ts"></script>

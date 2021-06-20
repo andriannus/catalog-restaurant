@@ -1,1 +1,1 @@
-export { default as AppBar } from "./app-bar.component.vue";
+export { default as XAppBar } from "./app-bar.component.vue";
